@@ -10,6 +10,7 @@ CREATE TABLE `employee` (
 `email` int(11) NOT NULL,
 PRIMARY KEY (`id`)
 ) ;
+
 CREATE TABLE `salary` (
 `id` int(11) NOT NULL,
 `value` decimal(10,0) NOT NULL,
